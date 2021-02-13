@@ -1,0 +1,172 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .jumbotron-logo-text h1{
+text-align: center;
+font-size:xx-large;
+margin-left: 30px;
+    }
+    .jumbotron-logo-text p{
+        text-align: center;
+        font-size:xx-large;
+        margin-left: 30px;
+            }
+
+    .jumbotron-logo-custom img{
+margin-left: 100px;
+    }
+.container-cards-custom{
+    margin-left: 60px;
+}
+    .top-search-button-custom{
+        margin-left: 160px;
+    }
+    .editorial-board-custom {
+       padding: 150px;
+     
+       position: absolute;
+    }
+    .editorial-board-custom .card{
+    
+        padding: 220px !important;
+        margin-left: 10px;
+     margin-top: -150px !important;
+        
+    }
+    .editorial-board-custom .card-header{
+display:none;
+
+    }
+    .editorial-board-custom .card-image{
+      
+        width:5px;
+        display: flexbox;
+        
+        margin-left: -60px;
+        margin-top: -10px;
+       
+        
+            }
+            .editorial-board-custom .card-body{
+            border:1px black !important;
+                
+                    }
+                    .editorial-board-custom .card-text{
+                        display:none;
+                            
+                                }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px ) {
+    .jumbotron-logo-text h1{
+        text-align: center;
+        font-size:50px;
+        margin-left: 40px;
+        
+            }
+            .jumbotron-logo-text p{
+                text-align: center;
+                font-size:40px;
+                margin-left: 30px;
+                    }
+        
+            .jumbotron-logo-custom img{
+        margin-left: 180px;
+            }
+            .jumbotron-logo-uni-custom img{
+                margin-left: 100px;
+            }
+            .editorial-board-custom .card-header{
+                display:none;
+                
+                    }
+                    .editorial-board-custom .card-text{
+                        display: none;
+                            
+                                }
+                               
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .jumbotron-logo-text h1{
+        text-align: center;
+        font-size:65px;
+        margin-left: 80px;
+            }
+            .jumbotron-logo-text p{
+                text-align: center;
+                font-size:50px;
+                margin-left: 40px;
+                    }
+        
+            .jumbotron-logo-custom img{
+        margin-left: 350px;
+            }
+         
+                   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .jumbotron-logo-text h1{
+        text-align: center;
+        font-size:30px;
+       
+            }
+            .jumbotron-logo-text p{
+                text-align: center;
+                font-size:xx-large;
+                margin-left: 30px;
+                    }
+        
+            .jumbotron-logo-custom img{
+        margin-left: 0;
+            }
+            .jumbotron-logo-uni-custom img{
+                margin-left: 30px;
+            }
+            .editorial-board-custom .card-header{
+                display: inline;
+                
+                    }
+                    .editorial-board-custom .card-title{
+                        text-align: center;
+                            
+                                }
+                                .editorial-board-custom .card-text{
+                                 display: block;
+                                    margin-left: 30px !important;
+                                        
+                                            }
+                
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .jumbotron-logo-text h1{
+        text-align: center;
+        font-size:50px;
+        margin-left: 30px;
+            }
+            .jumbotron-logo-text p{
+                text-align: center;
+                font-size:40px;
+                margin-left: 30px;
+                    }
+        
+            .jumbotron-logo-custom img{
+        margin-left: 0;
+            }
+            .editorial-board-custom .card-text{
+                float: right !important;
+                   margin-left: 0;
+                       
+                           }
+}
+.editorial-board-custom .card-body img{
+    
+       margin-left: 10px;
+           
+               }
+           

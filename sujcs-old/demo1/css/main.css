@@ -1,0 +1,62 @@
+body{
+    background-color: darkslategray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('/img/Backgroundpic.jpg'); background-repeat: no-repeat;  background-position: center center;
+    position: static;
+}
+
+
+.logo img{
+   margin-left: 10px;
+   
+}
+.headline1 h1{
+    color: rgb(250, 246, 246);
+    text-decoration: none;
+    font-size: 60px;
+    font-family: fantasy;
+    text-align: center;
+
+
+}
+.headline1{
+    text-decoration: none;
+}
+.headline1 :hover{
+    color: rgb(26, 29, 28);
+    text-decoration: none;
+    text-shadow: black ;
+}
+
+.mycontainer{
+    margin-top: 50px;
+}
+#tab-sidebar .nav-link {
+    margin: 5px;
+    border: 2px solid rgb(129, 53, 9);
+    font-size: 20px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    margin-top: 20px;
+   color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+    
+}
+
+#tab-sidebar .nav-link.col-6 {
+
+    max-width: calc(100% / 2 - 50px);
+}
+
+#tab-sidebar .nav-link.col-12 {
+    max-width: calc(100% - 50px);
+}
+.nav-pills .nav-link.active {
+    background-color: #0d2a46!important;
+}
+.tab-content{
+    color:wheat;
+}

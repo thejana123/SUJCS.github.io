@@ -1,0 +1,125 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    overflow-x: hidden;
+    display: block;
+}
+/******************************************************************************************/
+
+/******************************* Nav Bar *******************************/
+.navbar{
+    z-index: 10;
+    background-size: auto;
+    background: rgba(0, 0, 0, 1);
+    padding:0; 
+}
+ul.topnav li.dropdownIcon {
+    display: none;
+}
+.navbar-brand span{
+    color: #f5bb00;
+}
+.btn-outline-warning{
+    border-width: 1px;
+}
+.my-nav .nav-link{
+    color: aliceblue;
+}
+.my-nav .active-link{
+    background: #f5bb00;
+    border-radius: 50px;
+}
+.my-nav .active-link:hover{
+    background: transparent;
+    color: #f5bb00;
+}
+.my-nav .nav-link:hover{
+    color: #f5bb00;
+}
+.my-nav .navbar-brand{
+    color: aliceblue;
+    font-size: 2.2em;
+    font-weight: bolder;
+}
+.navbar-toggler-icon{color: aliceblue;}
+
+
+/******************************* /Nav Bar *******************************/
+
+/******************************* Search bar ********************************/
+.search-bar{
+    width: 300px;
+    margin: 5px !important;
+}
+.searchArea{
+    border-color: black !important;
+    background-color: rgb(0, 0, 0) !important;
+    color: rgb(150, 150, 150) !important;;
+}
+/******************************* /Search bar ********************************/
+
+/****************************** SecondNavbar *********************************/
+.second-nav-bar a{
+    color: white;
+}
+.second-nav-bar ul{
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 5px;
+}
+/****************************** /SecondNavbar ********************************/
+
+/****************************** SmallNavbar ***********************************/
+.small-nav-bar a {
+    color: white !important;
+    background-color: rgba(0, 0, 0, 1);
+}
+/****************************** /SmallNavbar ***********************************/
+img.logo{
+    height: 10rem;
+    border-style: none;
+    display: inline-block;
+    float: left;
+
+}
+.navbar2{
+    width: 90%;
+    padding-left: 63px;
+    padding-right: 63px;
+}
+.navbar1{
+    width: 100%;
+    
+}
+.theam{
+    float: left;
+    display: inline-block;
+    margin: auto;
+    display: inline-block;
+    margin-top: 3rem;
+    padding-left: 63px;
+    font-family: serif;
+}
+.block-seting{
+    float: left;
+}
+img.left-side{
+    padding-left: 30px;
+    float: right;
+    height: 10rem;
+    border-style: none;
+    display: inline-block;
+
+}
+.menu-bar{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px
+}
+.editor{
+    color: #007398
+}
+.btn-edited{
+    margin: 0;
+    width: 100%;
+}
