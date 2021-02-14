@@ -79,20 +79,24 @@ h4 {
 }
 
 .footer {
-  background-color: #0099cc;
+  background-color: #225791;
   text-align: center;
   padding: 20px;
   margin-top: 10px;
+
 }
 
 .footertext {
   text-align: center;
   color: white;
+  font-size: 15px;
+  font-weight: 500 ;
 }
 
 .footerline {
   background-color: white;
   width: 90px;
+
 }
 
 .table {
@@ -236,8 +240,9 @@ h4 {
 }
 
 .cover1 {
-  background-image: url("../assets/style2.jpg") no-repeat center fixed;
-  height: 500px;
+  background: url("../assets/style4-2.jpg") ;
+  background-position: center;
+  background-repeat: no-repeat;
+ background-size: cover;
 
-  background-size: cover;
 }
