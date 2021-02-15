@@ -1,26 +1,131 @@
-body{
-    font-family: 'open sans,arial,Times New Roman, Times, serif';
-    
+/*header bar styles start*/
+
+/*susl image responsive style start*/
+
+@media (min-width: 768px) {
+  .susl_img {
+    display: inline-block;
+    width: 100%;
+  }
 }
+
+/*susl image responsive style start*/
+
+/* susl-logo-text style start */
+
+.logo_text {
+  display: flex;
+  text-align: left;
+  font-size: 19px;
+}
+@media (min-width: 768px) {
+  .logo_text {
+    font-size: 22px;
+  }
+}
+/* susl-logo-text style end */
+
+/* jurnol-image & logo style start*/
+
+.journal_img {
+  width: 50%;
+  box-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.5);
+}
+
+.journal_logo {
+  width: 50%;
+  box-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.5);
+}
+
+@media (min-width: 992px) {
+  .journal_img {
+    width: 100%;
+    box-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.5);
+  }
+  .journal_logo {
+    width: 100%;
+    display: inline-block;
+  }
+}
+
+/* jurnol-image & logo style end*/
+
+/*socialmedia icon styles start*/
+
+.socialmedia {
+  padding-right: 0 !important;
+}
+
+.socialmedia_icon {
+  float: left;
+}
+
+@media (min-width: 992px) {
+  .socialmedia_icon {
+    float: right;
+  }
+}
+
+/*socialmedia icon styles end*/
+
+/* breadcrumb styles start*/
+.breadcrumb {
+  background-color: #fff;
+  font-size: medium;
+  padding-left: 0;
+  font-size: 12px;
+  padding-bottom: 0;
+}
+
+@media (min-width: 992px) {
+  .breadcrumb {
+    font-size: medium;
+    padding-left: 0;
+  }
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+}
+
+.journal {
+  font-family: serif;
+}
+
+.editor {
+  color: #007398;
+}
+/* breadcrumb styles end*/
+
+/* cover image new style start*/
+.cover1 {
+  background: url("./assets/style4-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* cover image new style end*/
+
+/*header bar styles end*/
+
 /* Footer styles start */
 .footer {
-    background-color: #142144;
-    text-align: center;
-    padding: 20px;
-    margin-top: 10px;
+  background-color: #142144;
+  text-align: center;
+  padding: 20px;
+  margin-top: 10px;
 }
 
 .footertext {
-    text-align: center;
-    color: white;
-    font-size: 15px;
-    font-weight: 500 ;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .footerline {
-    background-color: white;
-    width: 90px;
-
+  background-color: white;
+  width: 90px;
 }
 
 /* Footer styles end in here */
