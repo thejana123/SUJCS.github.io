@@ -99,7 +99,7 @@
 
 /* cover image new style start*/
 .cover1 {
-  background: url("./assets/style4-2.jpg");
+  /* background: url("./assets/style4-2.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
