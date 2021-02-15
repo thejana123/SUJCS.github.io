@@ -1,17 +1,27 @@
+body{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
 p {
     font-family: 'Open Sans', sans-serif;
     font-weight:normal;
     text-align: justify;
-    font-size: 16px;
+    font-size: 15px;
+    color: #151515;
 }
 
 h4 {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
+    color: #333333;
 }
 
 @media (min-width: 768px) {
+    body{
+        font-size: 16px;
+    }
     p {
         font-size: 16px;
     }
@@ -39,7 +49,6 @@ h4 {
 
 .leftside {
     margin-bottom: 25px;
-    font-size: 12px;
 }
 
 .table {
@@ -50,8 +59,8 @@ h4 {
     .table {
         font-size: 15px;
     }
-    .leftside {
-        font-size: 14px;
+    .list-group-item {
+        font-size: 18px;
     } 
 }
 
