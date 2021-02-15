@@ -2,11 +2,42 @@
 
 /*susl image responsive style start*/
 
-@media (min-width: 768px) {
+@media (max-width: 640px) {
   .susl_img {
     display: inline-block;
-    width: 100%;
+    width: 75px;
+    height: 75px;
+
   }
+  .sujcs-logo img{
+    width: 133px;
+    height: 73px;
+  }
+
+}
+@media (max-width: 992px) {
+  .susl_text {
+    display: inline-block;
+    padding-right: 0;
+    margin-right: 0;
+   
+
+  }
+  .susl_text {
+    display: inline-block;
+    padding-right: 0;
+    margin-right: 0;
+    display: none;
+   
+
+  }
+ 
+}
+.susl_text{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:30px; 
+  font-weight: 400;
 }
 
 /*susl image responsive style start*/
