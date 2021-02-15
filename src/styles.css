@@ -1,11 +1,12 @@
-
+body{
+    font-family: 'open sans';
+}
 /* Footer styles start */
 .footer {
     background-color: #142144;
     text-align: center;
     padding: 20px;
     margin-top: 10px;
-
 }
 
 .footertext {
