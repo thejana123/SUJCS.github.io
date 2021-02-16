@@ -1,28 +1,52 @@
+body{
+  font-size: 15px;
+  font-family: 'Open Sans';
+}
+
+p {
+  font-family: 'Open Sans';
+  font-weight:normal;
+  text-align: justify;
+  font-size: 15px;
+  color: #151515;
+}
+
+h4 {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 18px;
+  color: #333333;
+}
+
+@media (min-width: 768px) {
+  body{
+      font-size: 16px;
+  }
+  p {
+      font-size: 16px;
+  }
+  h4 {
+      font-size: 20px;
+  }
+}
+
 /*header bar styles start*/
 
 /*susl image responsive style start*/
 .susl_text{
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Newsreader';
   font-size:30px; 
   font-weight: 400;
 }
 
-
 @media (max-width: 640px) {
-  .susl_img {
-    display: inline-block;
-    width: 75px;
-    height: 75px;
-
-  }
   .sujcs-logo img{
     width: 133px;
     height: 73px;
   }
  
   .susl_text {
-   
     padding-right: 0;
     margin-right: 0;
     display: none;
@@ -31,7 +55,7 @@
   }
 
 }
-@media (max-width: 730px) {
+@media (max-width: 768px) {
   .susl_img {
     display: inline-block;
     width: 75px;
@@ -42,44 +66,25 @@
     width: 133px;
     height: 73px;
   }
- 
   .susl_text {
-   
     padding-right: 0;
     margin-right: 0;
-    font-size: 14px !important;
+    font-size: 20px !important;
     font-weight: 400;
-  
   }
 
 }
-@media(max-width:960px) {
-  .susl_text {
-   
-    padding-right: 0;
-    margin-right: 0;
-    font-size: 15px ;
-    font-weight: 400;
 
-
-   
-
-  }
-    
-}
 @media (max-width: 992px) {
  
   .susl_text{
-
     padding-right: 0;
     margin-right: 0;
-    font-size: 20px ;
+    font-size: 24px ;
     font-weight: 400;
-
   }
  
 }
-
 
 /*susl image responsive style start*/
 
@@ -93,6 +98,8 @@
 
 /* susl-logo-text style end */
 
+/*header bar styles end*/
+
 /* jurnol-image & logo style start*/
 
 .journal_img {
@@ -100,13 +107,8 @@
   box-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.5);
 }
 
-.journal_logo {
-  width: 50%;
-  box-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.5);
-}
-
 @media (max-width: 768px) {
-  .cover2{
+  .cover{
      padding: 0;
      margin: 0;
   }
@@ -125,7 +127,7 @@
     font-size: 22px;
   }
  
-   .cover2{
+   .cover{
      padding: 0;
      margin: 0;
      
@@ -136,6 +138,32 @@
   
   }
 
+}
+@media (max-width: 768px) {
+  .cover-text{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+  .topics{
+    text-align: center !important;
+  }
+  
+}
+
+.cover-text{
+  padding-left: 50px;
+}
+
+.topics h4{
+  font-size: 26px;
+  font-family:'Newsreader';
+  font-weight: 400;
+}
+
+.topics h2{
+  font-size: 38px;
+  font-family:'Newsreader';
+  font-weight:600;
 }
 
 @media (min-width: 992px) {
@@ -153,63 +181,110 @@
 
 /*socialmedia icon styles start*/
 
-.socialmedia {
-  padding-right: 0 !important;
-}
-
-.socialmedia_icon {
-  float: left;
-}
-
-@media (min-width: 992px) {
-  .socialmedia_icon {
-    float: right;
+@media (max-width: 768px) {
+  .icon-list{
+    justify-content: center !important;
   }
+  
+}
+.icon-list{
+  font-size: 20px;
 }
 
 /*socialmedia icon styles end*/
 
-/* breadcrumb styles start*/
-.breadcrumb {
-  background-color: #fff;
-  font-size: medium;
-  padding-left: 0;
-  font-size: 12px;
-  padding-bottom: 0;
-}
+/*
+    #################################
+        JOURNAL CONTENT SECTION
+    #################################  
+*/
 
-@media (min-width: 992px) {
-  .breadcrumb {
-    font-size: medium;
-    padding-left: 0;
+@media (max-width: 640px) {
+  #nav-tabContent{
+    padding-left:15px !important;
+    padding-right:15px !important;
   }
+  
+}
+#nav-tabContent{
+  padding-left: 35px;
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
-  content: ">";
+.journal-content{
+  background-color: #F9F9F9;
+  min-height: 720px;
 }
 
-.journal {
-  font-family: serif;
+.list-group {
+  border-radius: 0px !important;
 }
 
-.editor {
-  color: #007398;
+.list-group-item.active {
+  margin-top: 10px !important;
+  z-index: 2;
+  color: #fff;
+  background-color: #142144;
 }
-/* breadcrumb styles end*/
 
-/* cover image new style start*/
-/* .cover2 {
-  background: url("./assets/cover.JPG");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-/* cover image new style end*/
+.alignment {
+  padding-right: 0;
+  padding-left: 0;
+  margin-bottom: 25px;
+}
 
-/*header bar styles end*/
+.table {
+  font-size: 15px;
+}
+
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: .75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #225791;
+  border: 1px solid rgba(0, 0, 0, .125);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .table {
+      font-size: 15px;
+  }
+ 
+  
+}
+
+@media (max-width: 768px) {
+  .list-group-item {
+  text-align: center;
+  font-size: 14px;
+  }
+  .alignment {
+    justify-self: center !important;
+    margin-right: auto;
+    margin-left: auto;
+    }
+}
+
+.list-group-item-action:hover {
+  background-color: #142144;
+  color: #ffffff
+}
+
+/*
+  ###########################################
+      JOURNAL CONTENT SECTION ENDS FROM HERE
+  ###########################################  
+*/
+
 
 /* Footer styles start */
+
 .footer {
   background-color: #142144;
   text-align: center;
