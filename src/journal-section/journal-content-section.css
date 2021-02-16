@@ -48,8 +48,8 @@ h4 {
 }
 
 .leftside {
-    padding: 0;
-    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
     margin-bottom: 25px;
 }
 
@@ -57,14 +57,6 @@ h4 {
     font-size: 15px;
 }
 
-@media (min-width: 768px) {
-    .table {
-        font-size: 15px;
-    }
-    .list-group-item {
-        font-size: 18px;
-    } 
-}
 
 .list-group-item {
     position: relative;
@@ -79,6 +71,23 @@ h4 {
     color: #fff;
     margin-top: 10px;
 }
+
+@media (min-width: 768px) {
+    .table {
+        font-size: 15px;
+    }
+    .list-group-item {
+        font-size: 14px;
+    } 
+}
+
+@media (max-width: 760px) {
+    
+    .list-group-item {
+        font-size: 14px;
+    } 
+}
+
 
 .list-group-item-action:hover {
     background-color: #142144;
