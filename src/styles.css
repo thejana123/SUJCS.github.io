@@ -1,13 +1,93 @@
 /*header bar styles start*/
 
 /*susl image responsive style start*/
+.susl_text{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:30px; 
+  font-weight: 400;
+}
 
-@media (min-width: 768px) {
+
+@media (max-width: 640px) {
   .susl_img {
     display: inline-block;
-    width: 100%;
+    width: 75px;
+    height: 75px;
+
   }
+  .sujcs-logo img{
+    width: 133px;
+    height: 73px;
+  }
+ 
+  .susl_text {
+   
+    padding-right: 0;
+    margin-right: 0;
+    display: none;
+    font-weight: 400;
+  
+
+
+   
+
+  }
+
 }
+@media (max-width: 730px) {
+  .susl_img {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+
+  }
+  .sujcs-logo img{
+    width: 133px;
+    height: 73px;
+  }
+ 
+  .susl_text {
+   
+    padding-right: 0;
+    margin-right: 0;
+    font-size: 14px !important;
+    font-weight: 400;
+  
+
+
+   
+
+  }
+
+}
+@media(max-width:960px) {
+  .susl_text {
+   
+    padding-right: 0;
+    margin-right: 0;
+    font-size: 15px ;
+    font-weight: 400;
+
+
+   
+
+  }
+    
+}
+@media (max-width: 992px) {
+ 
+  .susl_text{
+
+    padding-right: 0;
+    margin-right: 0;
+    font-size: 20px ;
+    font-weight: 400;
+
+  }
+ 
+}
+
 
 /*susl image responsive style start*/
 
@@ -36,7 +116,7 @@
 
 
 
-@media (max-width: 412px) {
+@media (max-width: 760px) {
   .cover2{
      padding: 0;
      margin: 0;
