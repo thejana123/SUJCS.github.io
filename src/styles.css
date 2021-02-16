@@ -113,9 +113,6 @@
   box-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.5);
 }
 
-
-
-
 @media (max-width: 760px) {
   .cover2{
      padding: 0;
