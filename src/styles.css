@@ -102,6 +102,19 @@ h4 {
 
 /* jurnol-image & logo style start*/
 
+.cover-section{
+  background-image: url("./assets/background.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+}
+
+@media (max-width: 992px) {
+  .cover-section{
+    background-image: none;
+  }
+}
+
 .journal_img {
   width: 50%;
   box-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.5);
