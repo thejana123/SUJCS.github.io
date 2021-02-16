@@ -18,11 +18,7 @@
   text-align: left;
   font-size: 19px;
 }
-@media (min-width: 768px) {
-  .logo_text {
-    font-size: 22px;
-  }
-}
+
 /* susl-logo-text style end */
 
 /* jurnol-image & logo style start*/
@@ -35,6 +31,41 @@
 .journal_logo {
   width: 50%;
   box-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.5);
+}
+
+
+
+
+@media (max-width: 412px) {
+  .cover2{
+     padding: 0;
+     margin: 0;
+  }
+
+  .journal_img{
+    width:50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (min-width: 768px) {
+  .logo_text {
+    font-size: 22px;
+  }
+ 
+   .cover2{
+     padding: 0;
+     margin: 0;
+     
+   }
+  
+  .journal_img{
+    width: 100%;
+  
+  }
 }
 
 @media (min-width: 992px) {
@@ -98,12 +129,12 @@
 /* breadcrumb styles end*/
 
 /* cover image new style start*/
-.cover1 {
-  /* background: url("./assets/style4-2.jpg"); */
+/* .cover2 {
+  background: url("./assets/cover.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 /* cover image new style end*/
 
 /*header bar styles end*/
@@ -128,4 +159,10 @@
   width: 90px;
 }
 
+@media (max-width: 412px) {
+  .footertext {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
 /* Footer styles end in here */
