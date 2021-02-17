@@ -40,11 +40,11 @@ h4 {
   font-weight: 400;
 }
 
-/*@media (max-width: 640px) {
+@media (max-width: 640px) {
   .susl_img {
     width: 133px;
     height: 73px;
-  }*/
+  }
 
   .susl_text {
     padding-right: 0;
