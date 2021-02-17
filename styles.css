@@ -1,68 +1,66 @@
-body{
+body {
   font-size: 15px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
 }
 
 p {
-  font-family: 'Open Sans';
-  font-weight:normal;
+  font-family: "Open Sans";
+  font-weight: normal;
   text-align: justify;
   font-size: 15px;
   color: #151515;
 }
 
 h4 {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: bold;
   font-size: 18px;
   color: #333333;
 }
 
 @media (min-width: 768px) {
-  body{
-      font-size: 16px;
+  body {
+    font-size: 16px;
   }
   p {
-      font-size: 16px;
+    font-size: 16px;
   }
   h4 {
-      font-size: 20px;
+    font-size: 20px;
   }
 }
 
 /*header bar styles start*/
 
 /*susl image responsive style start*/
-.susl_text{
+.susl_text {
   text-align: center;
-  font-family: 'Newsreader';
-  font-size:30px; 
+  font-family: "Newsreader";
+  font-size: 30px;
   font-weight: 400;
 }
 
-@media (max-width: 640px) {
-  .sujcs-logo img{
+/*@media (max-width: 640px) {
+  .susl_img {
     width: 133px;
     height: 73px;
-  }
- 
+  }*/
+
   .susl_text {
     padding-right: 0;
     margin-right: 0;
     display: none;
     font-weight: 400;
-  
   }
-
 }
 @media (max-width: 768px) {
-  .susl_img {
+  .sujcs-logo img {
     display: inline-block;
     width: 75px;
     height: 75px;
-
   }
-  .sujcs-logo img{
+
+  .susl_img {
     width: 133px;
     height: 73px;
   }
@@ -72,18 +70,15 @@ h4 {
     font-size: 20px !important;
     font-weight: 400;
   }
-
 }
 
 @media (max-width: 992px) {
- 
-  .susl_text{
+  .susl_text {
     padding-right: 0;
     margin-right: 0;
-    font-size: 24px ;
+    font-size: 24px;
     font-weight: 400;
   }
- 
 }
 
 /*susl image responsive style start*/
@@ -108,13 +103,13 @@ h4 {
 }
 
 @media (max-width: 768px) {
-  .cover{
-     padding: 0;
-     margin: 0;
+  .cover {
+    padding: 0;
+    margin: 0;
   }
 
-  .journal_img{
-    width:50%;
+  .journal_img {
+    width: 50%;
     position: relative;
     top: 50%;
     left: 50%;
@@ -126,44 +121,40 @@ h4 {
   .logo_text {
     font-size: 22px;
   }
- 
-   .cover{
-     padding: 0;
-     margin: 0;
-     
-   }
-  
-  .journal_img{
-    width: 100%;
-  
+
+  .cover {
+    padding: 0;
+    margin: 0;
   }
 
+  .journal_img {
+    width: 100%;
+  }
 }
 @media (max-width: 768px) {
-  .cover-text{
+  .cover-text {
     padding-left: 30px !important;
     padding-right: 30px !important;
   }
-  .topics{
+  .topics {
     text-align: center !important;
   }
-  
 }
 
-.cover-text{
+.cover-text {
   padding-left: 50px;
 }
 
-.topics h4{
+.topics h4 {
   font-size: 26px;
-  font-family:'Newsreader';
+  font-family: "Newsreader";
   font-weight: 400;
 }
 
-.topics h2{
+.topics h2 {
   font-size: 38px;
-  font-family:'Newsreader';
-  font-weight:600;
+  font-family: "Newsreader";
+  font-weight: 600;
 }
 
 @media (min-width: 992px) {
@@ -182,12 +173,11 @@ h4 {
 /*socialmedia icon styles start*/
 
 @media (max-width: 768px) {
-  .icon-list{
+  .icon-list {
     justify-content: center !important;
   }
-  
 }
-.icon-list{
+.icon-list {
   font-size: 20px;
 }
 
@@ -200,18 +190,17 @@ h4 {
 */
 
 @media (max-width: 640px) {
-  #nav-tabContent{
-    padding-left:15px !important;
-    padding-right:15px !important;
+  #nav-tabContent {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
-  
 }
-#nav-tabContent{
+#nav-tabContent {
   padding-left: 35px;
 }
 
-.journal-content{
-  background-color: #F9F9F9;
+.journal-content {
+  background-color: #f9f9f9;
   min-height: 720px;
 }
 
@@ -236,15 +225,14 @@ h4 {
   font-size: 15px;
 }
 
-
 .list-group-item {
   position: relative;
   display: block;
-  padding: .75rem 1.25rem;
+  padding: 0.75rem 1.25rem;
   margin-bottom: -1px;
   background-color: #225791;
-  border: 1px solid rgba(0, 0, 0, .125);
-  font-family: 'Open Sans', sans-serif;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   font-size: 18px;
   color: #fff;
@@ -253,27 +241,25 @@ h4 {
 
 @media (min-width: 768px) {
   .table {
-      font-size: 15px;
+    font-size: 15px;
   }
- 
-  
 }
 
 @media (max-width: 768px) {
   .list-group-item {
-  text-align: center;
-  font-size: 14px;
+    text-align: center;
+    font-size: 14px;
   }
   .alignment {
     justify-self: center !important;
     margin-right: auto;
     margin-left: auto;
-    }
+  }
 }
 
 .list-group-item-action:hover {
   background-color: #142144;
-  color: #ffffff
+  color: #ffffff;
 }
 
 /*
@@ -281,7 +267,6 @@ h4 {
       JOURNAL CONTENT SECTION ENDS FROM HERE
   ###########################################  
 */
-
 
 /* Footer styles start */
 
@@ -314,7 +299,7 @@ h4 {
 
 #back-to-top-btn {
   display: inline-block;
-  background-color:#757575;
+  background-color: #757575;
   width: 45px;
   height: 45px;
   text-align: center;
@@ -323,7 +308,7 @@ h4 {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  transition: background-color .3s, opacity .5s, visibility .5s;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
@@ -334,12 +319,12 @@ h4 {
   color: blanchedalmond;
 }
 
-#back-to-top-btn span{
-display: none;
-font-size: 12px;
-color: blanchedalmond;
-margin: 0;
-padding: 0;
+#back-to-top-btn span {
+  display: none;
+  font-size: 12px;
+  color: blanchedalmond;
+  margin: 0;
+  padding: 0;
 }
 
 #back-to-top-btn:hover {
@@ -348,12 +333,12 @@ padding: 0;
   color: black;
   height: 63px;
 }
-#back-to-top-btn:hover span{
-display: block;
-color: black;
-font-weight: bold;
+#back-to-top-btn:hover span {
+  display: block;
+  color: black;
+  font-weight: bold;
 }
-#back-to-top-btn:hover i{
+#back-to-top-btn:hover i {
   color: black;
 }
 
